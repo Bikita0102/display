@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biki</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .header{
+        padding: 15px;
+        background-color: bisque;
+    }
+    .menu{
+        width:20%;
+        float: left;
+    }
+    .menuitem{
+        padding: 8px;
+        margin-top: 7px;
+        border-bottom: 2px solid bisque;
+        overflow: auto;
+    }
+    .main{
+        float: left;
+        width: 60%;
+        padding: 0 20px;
+        overflow: hidden;
+    }
+    .right{
+        background-color: #63cff3be;
+        float: left;
+        width: 20%;
+        padding: 10px 15px;
+        margin-top: 7px;
+    }
+    .footer{
+        background-color: lightblue;
+        text-align: center;
+        padding: 10px;
+        margin-top: 7px;
+        font-size: 12px;
+    }
+    marquee{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    @media only screen and (max-width:800px){
+        .main{
+        width: 80%;
+        padding: 0;
+    }
+    .right{
+        width: 100%;
+    }
+    }
+    @media only screen and (max-width:500px){
+        
+    }
+    
+</style>
+<body>
+    <div class="header">
+        <h1>Nepal</h1> 
+        <h2>8th  wonder of the world</h2>
+    </div>
+    <div style="overflow: auto;">
+        <div class="menu">
+            <div class="menuitem">Food</div>
+            <div class="menuitem">Transport</div>
+            <div class="menuitem">History</div>
+            <dv class="menuitem">Gallery</dv>
+        </div>
+        <div class="main">
+            <h2>Brief introduction</h2>
+            <p>Nepal,officially the federal democratic republic mainly situated in the Himalayas,but also in Hilly and Terai region.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Pokhara-valley-nepal.jpg" style="width: 100%; height: 350px;">
+        </div>
+        <div class="right">
+            <h2>Full name</h2>
+            <p>According to hindu mithology, Nepal derives its name from an ancient hindu sage called as Ne Muni or Nemi</p>
+            <h2>Where?</h2>
+            <p>Nepal is a landlocked country in south asia. It is mainly situated in the Himalayas.</p>
+            <h2>Religion?</h2>
+            <p>Hinduism is the major religion in the country of Nepal is a secular space</p>
+        </div>
+    </div>
+    <div class="footer">
+           <marquee scrollamount="10">Federal Republic of Nepal. Nepal is a landlocked country</marquee>
+    </div>
+</body>
+</html>
