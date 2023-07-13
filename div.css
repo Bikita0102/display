@@ -1,0 +1,13 @@
+p.uppercase{text-transform: uppercase;}
+p.small{text-indent: 30px;line-height: 4;font-weight: bold;}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{text-shadow: 3px 4px lightblue;}
+h2{color:#e29e62e3; text-shadow: 2px 2px 4px #ff0000,0 10px 25px #06ffff,0 0 5px lightblue;}
+.menuitem{
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 2px solid bisque;
+    overflow: auto;
+}
