@@ -11,3 +11,17 @@ h2{color:#e29e62e3; text-shadow: 2px 2px 4px #ff0000,0 10px 25px #06ffff,0 0 5px
     border-bottom: 2px solid bisque;
     overflow: auto;
 }
+.fixed{
+    width: 200px;
+    height: 75px;
+    background-color: blanchedalmond;
+    overflow:auto;
+    
+}
+.box{
+    border: 2px solid black;
+    overflow: auto;
+}
+.paragraph{
+    margin-top:4px ;
+}
