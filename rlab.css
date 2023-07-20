@@ -1,0 +1,30 @@
+.box{
+    overflow: auto;
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    height: auto;
+}
+.image{
+    background-image: url("https://www.state.gov/wp-content/uploads/2019/04/Japan-2107x1406.jpg");
+    height:auto;
+    background-size: cover;
+    text-align: center;
+}
+.head{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: rgba(245, 245, 245, 0.658);
+}
+.paragraph{
+    width: 50%;
+    margin: auto;
+    height: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
