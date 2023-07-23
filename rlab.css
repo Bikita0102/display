@@ -1,6 +1,6 @@
 .box{
     overflow: auto;
-    width: 50%;
+    width: 60%;
     background-color: white;
     margin: auto;
     height: auto;
@@ -11,13 +11,13 @@
     background-size: cover;
     text-align: center;
 }
-.head{
+.headt{
     padding-top: 100px;
     padding-bottom: 100px;
     color: rgba(245, 245, 245, 0.658);
 }
 .paragraph{
-    width: 50%;
+    width: 60%;
     margin: auto;
     height: auto;
     background-color: black;
@@ -27,4 +27,21 @@
     line-height: 1.5;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+.headb{
+    text-align: center;
+}
+.street{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-right: 35px;
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 12px;
+    
 }
