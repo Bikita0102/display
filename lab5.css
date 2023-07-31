@@ -1,0 +1,36 @@
+.flex-container{
+    display: flex;
+    background-color: aquamarine;
+    padding: 10px;
+    flex-flow: row wrap;
+}
+.flex-container > div{
+    width: 26px;
+    height: 26px;
+    padding: 10px;
+    color: black;
+    background-color: burlywood;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 500px;
+}
+.flex-container1{
+    display: flex;
+    background-color: rgb(197, 126, 170);
+    padding: 10px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.flex-container1 > div{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: black;
+    background-color: rgb(216, 98, 157);
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    color: white;
+}
