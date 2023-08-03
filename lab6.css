@@ -1,0 +1,22 @@
+.gridcontainer{
+    display: inline-grid;
+    background-color: grey;
+    grid-template-columns: auto auto auto auto auto auto ;
+    padding: 10px;
+    flex-wrap: row wrap;
+    justify-content: space-between;
+    column-gap: 5px;
+    border-radius: 15px;
+}
+.gridcontainer > div{
+    background-color: rgb(133, 130, 130);
+    padding: 30px;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 28px;
+    height: 50px;
+    box-shadow: 3px 2px rgba(27, 27, 27, 0.589);
+    margin-bottom: 10px;
+    width: 17px;
+    padding-left: 10px;
+    
+}
