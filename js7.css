@@ -1,0 +1,21 @@
+/*query selctor submit bhako sabia ma css aaunxa*/
+input[type=submit]{
+    background-color: #13554471;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+}
+input[type=reset]{
+    background-color: #1c5a4a71;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+}
+input[type=text]{
+    background-color: rgba(231, 178, 178, 0.774);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+} 
+input[type=email]{
+    background-color: rgba(231, 178, 178, 0.774);
+    font-family: cursive;
+    border: none;
+}
